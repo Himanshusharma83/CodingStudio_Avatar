@@ -20,7 +20,7 @@ const UserList = () => {
   }, []);
 
   const handleDelete = (userId) => {
-    // Filter out the deleted user
+
     const updatedUsers = users.filter((user) => user.id !== userId);
     setUsers(updatedUsers);
   };
@@ -33,7 +33,7 @@ const UserList = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            minHeight: 'calc(100vh - 40px)', // Adjust as needed
+            minHeight: 'calc(100vh - 40px)', 
           }}
         >
           <Spin size="large" />
