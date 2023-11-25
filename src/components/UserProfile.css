@@ -1,0 +1,51 @@
+.custom-image {
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px 5px 2px 5px;
+    height: 20vh;
+    margin-left: -9.4%;
+    margin-top: -9.4%;
+    width: 118.5%;
+}
+
+.name {
+    margin-bottom: 5px;
+    margin-left: 3px;
+    color: #000;
+    text-align: left;
+}
+
+.email {
+    margin-right: 8rem;
+    margin-bottom: 3px;
+}
+
+.number {
+    margin-right: 9.2rem;
+    margin-bottom: 3px;
+}
+
+.website {
+    margin-right: 9.5rem;
+    margin-bottom: 3px;
+}
+
+@media (max-width: 664px) and (min-width: 375px) {
+    .custom-image {
+        width: 112%;
+        margin-left: -6%;
+        margin-top: -6%;
+    }
+
+    .name{
+        text-align: center;
+        margin-right: -20px;
+        margin-left: 0; 
+    }
+    .email,
+    .number,
+    .website {
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
