@@ -103,7 +103,7 @@ const UserProfile = ({ user,onDelete }) => {
             <Card.Meta
               style={{ marginBottom: '8px' }}
               avatar={<PhoneOutlined className='phone' />}
-              description={<span className='number' >{editedUser.address.zipcode}</span>}
+              description={<span className='number' >{editedUser.phone}</span>}
             />
           </li>
           <li>
